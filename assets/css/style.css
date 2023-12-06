@@ -480,16 +480,29 @@ h6 {
   66% {
     background-image: url("../img/madam3.jpg");
   }
+
 }
+
+.container-bg{
+  background-color: #11111173;
+  display: inline-block;
+  /* align-self: center; */
+  padding: 3rem 3rem 3rem 3rem;
+  width: 70%;
+  
+}
+
+
+
 
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0; */
 }
 
 #hero .container {
@@ -1899,6 +1912,14 @@ section {
   .footer-img{
   width: 100%;
  
+}
+
+.container-bg{
+  background-color: #11111173;
+  display: inline-block;
+  align-self: center;
+  padding: 3rem 0;
+  width: 100%;
 }
 }
 
