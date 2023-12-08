@@ -1466,13 +1466,18 @@ section {
   padding: 0;
   list-style: none;
   color: #444444;
-  text-align: center;
+  text-align: start;
   line-height: 20px;
   font-size: 14px;
 }
 
 .pricing .box ul li {
   padding-bottom: 16px;
+ /* list-style-image: url(../img/check-all.svg); */
+ list-style-position: inside;
+ list-style-type: decimal;
+ /* margin-left: 1rem; */
+ 
 }
 
 .pricing .box ul i {
@@ -1513,7 +1518,11 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #106eea;
+  background: #daa520 ;
+}
+.pricing .featured-silver h3 {
+  color: #fff;
+  background: #d3d3d3 ;
 }
 
 .pricing .advanced {
@@ -1525,8 +1534,8 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #106eea;
-  color: #fff;
+  background: #d3d3d3;
+  color: #747070;
 }
 
 /*--------------------------------------------------------------
