@@ -1474,9 +1474,10 @@ section {
 .pricing .box ul li {
   padding-bottom: 16px;
  /* list-style-image: url(../img/check-all.svg); */
- list-style-position: inside;
- list-style-type: decimal;
- /* margin-left: 1rem; */
+ list-style-position: outside;
+ /* list-style-type: symbols(); */
+ margin-left: 1rem;
+ margin-right: 1rem;
  
 }
 
