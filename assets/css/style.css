@@ -1744,7 +1744,7 @@ section {
 #footer .footer-newsletter {
   padding: 50px 0;
   background: #f1f6fe;
-  text-align: center;
+  text-align: start;
   font-size: 15px;
 }
 
